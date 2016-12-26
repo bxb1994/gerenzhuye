@@ -1,0 +1,152 @@
+*{
+	list-style: none;
+    text-decoration: none;
+    box-sizing:border-box;
+    border:none;
+    color:#000;
+    padding:0;margin:0;	
+}
+html,body{
+	width:100%;height:100%;
+}
+
+.news-xianqing{
+	width:100%;
+}
+.news-top{
+	width:7.02rem;
+	height:0.9rem;
+	background:#fff;
+	position:fixed;
+	left:0.24rem;top:0;
+}
+.news-top .btn{
+	height:100%;
+	line-height: 0.9rem;
+	font-size:0.5rem;	
+	text-indent: 0.15rem;
+	float:left;
+}
+.news-top .share{
+	float:right;
+	height:0.1rem;
+	width:0.5rem;
+	margin-top:0.4rem;
+	margin-right:0.15rem;
+}
+.share ul{
+	width:100%;height:100%;
+}
+.share ul li{
+	width:0.1rem;height:0.1rem;
+	background:#666;
+	border-radius:50%;
+	float:left;
+	margin-left:0.04rem;
+}
+
+.news-content{
+	width:7.02rem;
+	margin-top:0.8rem;
+	margin-left:0.24rem;
+}
+.content-box{
+	width:100%;
+}
+.content-box h5{
+	width:100%;
+	padding:0.2rem;
+	font-size:0.36rem;
+}
+.admin{
+	width:100%;height:1rem;
+	padding:0.2rem 0;
+}
+.user{
+	width:3rem;
+	float:left;
+}
+.user .tou-img{
+	width:0.6rem;height:0.6rem;
+	float:left;
+	border-radius:50%;
+}
+.user .tou-img img{
+	width:100%;height:100%;
+	float:left;
+	border-radius:50%;
+}
+.user .name{
+	font-size:0.24rem;
+	padding:0 0.1rem;
+	float:left;
+}
+.user .qie{
+	width:0.7rem;height:0.2rem;
+	float:left;
+	background:red;
+}
+.user .data{
+	font-size:0.2rem;
+	padding:0.1rem 0.1rem;
+	color:#92908F;
+	float:left;
+}
+.guanzhu{
+	width:1.1rem;height:0.5rem;
+	border:1px solid #F03F15;
+	line-height: 0.5rem;
+	text-align:center;
+	float:right;
+	font-size:0.3rem;
+	color:#FD2502;
+}
+.guanzhu:before{
+	content:"\e61a";
+	color:#FF4B03;
+	font-size:0.3rem;
+}
+.articl{
+	width:100%;
+}
+.articl p{
+	font-size:0.24rem;
+	line-height:0.32rem;
+	padding:0.2rem 0;
+}
+.chatu{
+	width:100%;height:4rem;
+}
+.chatu img{
+	width:100%;height:100%;
+}
+.news-foot{
+	width:100%;height:0.9rem;
+	position:fixed;
+	left:0;bottom:0;
+	background:#F0F0F0;
+}
+.news-foot input{
+	width:3.51rem;
+	height:0.5rem;
+	margin-left:0.24rem;
+	margin-top:0.2rem;
+	border-radius:0.1rem;
+	background:#fff;
+	float:left;
+}
+.foot-icon{
+	font-size:0.5rem;
+	line-height:0.9rem;
+	float:left;
+	margin-left:0.6rem;
+}
+.pl:before{
+	content: "\e621";
+}
+.sc:before{
+	content:"\e650";
+}
+.zf:before{
+	content:"\e61a";
+}

@@ -1,0 +1,86 @@
+html,body{
+    width:100%;height:100%;
+    background:#000;
+    overflow: hidden;
+    padding:0;margin:0;
+}
+canvas{
+    background: url(../img/bga.png) repeat-x;
+    background-size:100% 100%;
+}
+.start,.over{
+     width:300px;
+     height:200px;
+     border:2px solid #fff;
+     position: fixed;
+     left:0;right:0;top:0;bottom:0;
+     margin:auto;
+     border-radius: 10px;
+     z-index:1;
+    animation:start 2s ease forwards;
+ }
+.over{
+    display:none;
+}
+div.over{
+    animation:null;
+    transform:translate(0 -1000px);
+}
+.over .welcome{
+    font-size: 30px;color:#fff;
+}
+.over ul{
+    color:#fff;
+    font-size: 20px;
+}
+.welcome{
+    width:100%;
+    height:100px;
+    text-align: center;
+    line-height:60px;
+    color:#fff;
+    font-size:30px;
+}
+button{
+    width:150px;
+    line-height: 50px;
+    border-radius: 10px;
+}
+.mask{
+    width:100%;height:100%;
+    position:fixed;
+    left:0;top:0;
+    background:rgba(0,0,0,0.5);
+}
+@keyframes start {
+    0%{
+        transform:translate(0,-1000px);
+    }
+    100%{
+        transform:translate(0,0px);
+    }
+}
+@keyframes start1 {
+    0%{
+        transform:translate(0,0px);
+    }
+    100%{
+        transform:translate(0,-1000px);
+    }
+}
+@keyframes mask {
+    0%{
+        background:rgba(0,0,0,0.2);
+    }
+    100%{
+        background:rgba(0,0,0,0.6);
+    }
+}
+@keyframes mask1 {
+    0%{
+        background:rgba(0,0,0,0.6);
+    }
+    100%{
+        background:rgba(0,0,0,0);
+    }
+}

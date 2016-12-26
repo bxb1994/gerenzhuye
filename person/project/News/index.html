@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/resize.js"></script>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    	<div class="swiper-slide ydy1">
+    		<div id="title-text" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+    			<p>海量视频实时热点</p>
+    	        <p>尽在掌握之中</p>
+    		</div>
+    	</div>
+    	<div class="swiper-slide ydy2">
+    		<div id="title-text" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+    			<p>更多的热门<span>新鲜事</span></p>
+    		    <p>等你围观</p>
+    		</div>
+    	</div>
+        <div class="swiper-slide ydy3">
+            <h1 class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">日报</h1>
+            <a href="html/home.html">开始体验</a>
+        </div>
+    	
+    </div>
+</div>
+</body>
+</html>
+<script>
+	var swiper=new Swiper('.swiper-container',{
+        pagination: '.swiper-pagination',
+        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function(swiper){
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+    }) 
+</script>

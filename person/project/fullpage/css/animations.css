@@ -1,0 +1,181 @@
+.active strong, .active h3 {
+    opacity: 1;
+    -webkit-transform:scale(1, 1);
+    transform:scale(1, 1);
+    transition-delay: 0.7s;
+}
+
+.active .p1 {
+    opacity: 1;
+    transition-delay: 1.7s;
+}
+
+/*一*/
+.active .bg2 { bottom: 90px; opacity: 1; transition-delay: 0.7s; }
+
+.active .bg3 { bottom: 0; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg-title { opacity: 1; -webkit-transform:scale(1, 1); transform:scale(1, 1); transition-delay: 0.7s;}
+
+.active .email { top: 25px; transition-delay: 0.7s;}
+
+.active .p11 { opacity: 1; transition-duration: 1s; transition-delay: 2s;}
+
+/*二*/
+.active .bg4 { opacity: 1; margin-left: -608px; transition-delay: 0.7s;}
+
+.active .bg6 { bottom: 15%; transition-delay: 0.7s;}
+
+.active .bg5 { margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+
+/*三*/
+.active .p3 { margin-left: -480px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg7, .active .bg8 { opacity: 1; transition-delay: 1s;}
+
+.active .bg9 { margin-left: -120px; opacity: 1; transition-delay: 0.7s;}
+
+/*四*/
+.active .bg10 { bottom: 15%; transition-delay: 0.7s;}
+
+.active .bg11 { bottom: 15%; transition-delay: 1.1s;}
+
+.active .bg12 { bottom: 15%; transition-delay: 0.9s;}
+
+/*五*/
+.active .bg13 { margin-left: -551px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg14 { margin-left: -253px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg15 { margin-left: 45px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg16 { margin-left: 345px; opacity: 1; transition-delay: 0.7s;}
+
+/*六*/
+.active .bg17 { top: 0; transition-delay: 0.7s;}
+
+.active .bg18 { left: 50%; opacity: 1; transition-delay: 0.7s;}
+
+.active .p6 { left: 50%; opacity: 1; transition-delay: 0.7s;}
+
+
+/*七*/
+.active .bg19 { bottom: 250px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg20 { bottom: 350px; opacity: 1; transition-delay: 0.9s;}
+
+.active .p7 { bottom: 420px; opacity: 1; transition-delay: 1.1s;}
+
+
+/*八*/
+
+.active .bg24 { bottom: 260px; margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg25 { bottom: 380px; margin-left: -430px; opacity: 1; transition-delay: 1s;}
+
+.active .bg26 { bottom: 420px; margin-left: -510px; opacity: 1; transition-delay: 1.2s;}
+
+.active .p8 { opacity: 1; transition-delay: 1.7s;}
+
+/*九*/
+.active .bg27 { margin-left: -570px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg28 { opacity: 1; transition-delay: 0.8s;}
+
+.active .bg29 { margin-left: 230px; opacity: 1; transition-delay: 0.7s;}
+
+/*十*/
+.active .bg31, .active .bg32 { opacity: 1; -webkit-transform:scale(1, 1); transform:scale(1, 1); transition-delay: 0.7s;}
+.active .go { top: 25%; opacity: 1; transition-delay: 1.2s;}
+
+
+/*固定*/
+/*.ltie10 strong, .ltie10 h3 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}*/
+
+/*.ltie10 .p1 { opacity: 1; transition-delay: 1.7s;}*/
+
+
+
+/*.ltie10 .bg2 { bottom: 90px; opacity: 1; transition-delay: 0.7s; }*/
+
+/*.ltie10 .bg3 { bottom: 0; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg-title { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}*/
+
+/*.ltie10 .email { top: 25px; transition-delay: 0.7s;}*/
+
+/*.ltie10 .p11 { opacity: 1; transition-duration: 1s; transition-delay: 2s;}*/
+
+
+
+/*.ltie10 .bg4 { opacity: 1; margin-left: -608px; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg6 { bottom: 15%; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg5 { margin-left: -280px; opacity: 1; transition-delay: 0.7s;}*/
+
+
+
+/*.ltie10 .p3 { margin-left: -480px; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg7, .ltie10 .bg8 { opacity: 1; transition-delay: 1s;}*/
+
+/*.ltie10 .bg9 { margin-left: -120px; opacity: 1; transition-delay: 0.7s;}*/
+
+
+
+/*.ltie10 .bg10 { bottom: 15%; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg11 { bottom: 15%; transition-delay: 1.1s;}*/
+
+/*.ltie10 .bg12 { bottom: 15%; transition-delay: 0.9s;}*/
+
+
+
+/*.ltie10 .bg13 { margin-left: -551px; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg14 { margin-left: -253px; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg15 { margin-left: 45px; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg16 { margin-left: 345px; opacity: 1; transition-delay: 0.7s;}*/
+
+
+
+/*.ltie10 .bg17 { top: 0; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg18 { left: 50%; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .p6 { left: 50%; opacity: 1; transition-delay: 0.7s;}*/
+
+
+
+/*.ltie10 .bg19 { bottom: 250px; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg20 { bottom: 350px; opacity: 1; transition-delay: 0.9s;}*/
+
+/*.ltie10 .p7 { bottom: 420px; opacity: 1; transition-delay: 1.1s;}*/
+
+
+
+/*.ltie10 .bg24 { bottom: 260px; margin-left: -280px; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg25 { bottom: 380px; margin-left: -430px; opacity: 1; transition-delay: 1s;}*/
+
+/*.ltie10 .bg26 { bottom: 420px; margin-left: -510px; opacity: 1; transition-delay: 1.2s;}*/
+
+/*.ltie10 .p8 { opacity: 1; transition-delay: 1.7s;}*/
+
+
+
+/*.ltie10 .bg27 { margin-left: -570px; opacity: 1; transition-delay: 0.7s;}*/
+
+/*.ltie10 .bg28 { opacity: 1; transition-delay: 0.8s;}*/
+
+/*.ltie10 .bg29 { margin-left: 230px; opacity: 1; transition-delay: 0.7s;}*/
+
+
+
+/*.ltie10 .bg31, .ltie10 .bg32 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}*/
+
+/*.ltie10 .go { top: 25%; opacity: 1; transform:scale(1, 1); transition-delay: 1.2s;}*/

@@ -1,0 +1,57 @@
+@col:12;
+@num1:735px;
+@num2:1068px;
+
+.container{
+  &{
+    width:100%;
+    margin:auto;
+  }
+  &>.row{
+    .clear;
+    width:100%;
+  }
+  &-fluid {
+    width: 100%;
+    margin: auto;
+  }
+  &-fluid>.row{
+    .clear;
+    width:100%;
+  }
+}
+/*大屏*/
+.loop(l);
+/*中屏*/
+@media screen and (max-width:@num2){
+  .container{
+  }
+  .loop(m)
+}
+/*小屏*/
+
+@media screen and (max-width:@num1){
+  .container{
+  }
+  .loop(s)
+}
+.loop (@type:s,@i:1) when(@i<=@col){
+  .container>.row>.col-@{type}-@{i}{
+    width:@i/@col*100%;
+    float:left;
+  }
+  .container-fluid>.row>.col-@{type}-@{i}{
+    width:@i/@col*100%;
+    float:left;
+  }
+  .loop(@type,@i+1);
+}
+.clear(){
+  &:before,&:after{
+    content:"";
+    display: block;
+  }
+  &:after{
+    clear:both;
+  }
+}

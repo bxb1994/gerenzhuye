@@ -1,0 +1,75 @@
+{
+	"index.html": {
+		"resources": [
+			"css/font.css",
+			"css/index.css",
+			"js/swiper.jquery.js",
+			"js/swiper.animate1.0.2.min.js",
+			"font/iconfont.woff",
+			"js/zepto.min.js",
+			"css/swiper.min.css",
+			"css/animate.css",
+			"js/index.js",
+			"home.html",
+			"img/bg.jpg",
+			"img/app.png",
+			"html/home.html",
+			"js/resize.js"
+		],
+		"refer": [
+			"home.html",
+			"html/home.html"
+		]
+	},
+	"home.html": {
+		"resources": [
+			"img/user.jpg",
+			"img/21.jpg",
+			"img/25.jpg",
+			"img/4.jpg",
+			"img/22.jpg",
+			"img/5.jpg",
+			"img/31.jpg",
+			"img/2.jpg",
+			"img/7.jpg",
+			"img/24.jpg",
+			"font/iconfont.woff",
+			"img/1.jpg",
+			"img/ban2.3.jpg",
+			"img/32.jpg",
+			"img/6.jpg",
+			"img/ban1.jpg",
+			"img/3.jpg",
+			"js/swiper.animate1.0.2.min.js",
+			"css/animate.css",
+			"css/index.css",
+			"js/swiper.jquery.js",
+			"css/font.css",
+			"js/zepto.min.js",
+			"css/swiper.min.css",
+			"js/index.js"
+		]
+	},
+	"html/home.html": {
+		"resources": [
+			"img/21.jpg",
+			"img/25.jpg",
+			"img/4.jpg",
+			"img/22.jpg",
+			"img/5.jpg",
+			"css/font.css",
+			"css/home.css",
+			"img/31.jpg",
+			"img/2.jpg",
+			"img/7.jpg",
+			"img/24.jpg",
+			"font/iconfont.woff",
+			"img/1.jpg",
+			"img/ban2.3.jpg",
+			"img/32.jpg",
+			"img/6.jpg",
+			"img/ban1.jpg",
+			"img/3.jpg"
+		]
+	}
+}

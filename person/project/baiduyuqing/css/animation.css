@@ -1,0 +1,69 @@
+/*菜单*/
+@keyframes menu {
+    0%{
+        opacity:0;
+        transform:rotateX(90deg)
+    }
+    100%{
+        opacity:1;
+        transform:rotateX(0deg)
+    }
+}
+@keyframes menu1{
+    0%{
+        opacity:1;
+        transform:rotateX(0deg)
+    }
+    100%{
+        opacity:0;
+        transform:rotateX(90deg)
+    }
+}
+/*飞机*/
+@keyframes fly {
+    0%{
+        top:115px;
+    }
+    50%{
+        top:105px;
+    }
+    100%{
+        top:115px;
+    }
+}
+
+@keyframes slip {
+    0%{
+        bottom:50px;
+        opacity:1;
+    }
+    50%{
+        bottom:40px;
+        opacity:0.6;
+    }
+    100%{
+        bottom:50px;
+        opacity:1;
+    }
+}
+
+@keyframes rot {
+    0%{
+        transform:rotateY(0deg);
+    }
+    50%{
+        transform:rotateY(360deg);
+    }
+    100%{
+        transform:rotateY(0deg);
+    }
+}
+@keyframes move {
+    0%{
+        transform:translate(0,0);
+    }
+    100%{
+        transform:translate(-100%,0);
+    }
+
+}
